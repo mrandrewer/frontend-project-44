@@ -1,0 +1,20 @@
+{
+  "name": "mindgames",
+  "version": "1.0.0",
+  "description": "Hexlet module 2 project: mind games",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrandrewer/frontend-project-44.git"
+  },
+  "author": "Andrei Belskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrandrewer/frontend-project-44/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/mrandrewer/frontend-project-44#readme"
+}
