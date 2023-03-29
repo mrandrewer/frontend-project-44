@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Hexlet module 2 project: mind games",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "npx jest"
