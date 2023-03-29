@@ -29,12 +29,11 @@ const runGame = (instruction, getTurnDataCallback) => {
   const name = printGreeting(instruction);
   let turnWins = 0;
   while (turnWins < turnsToWin) {
-    if (runGameTurn(getTurnDataCallback)) {
-      turnWins += 1;
-    } else {
+    if (!runGameTurn(getTurnDataCallback)) {
       printTryAgain(name);
-      turnWins = 0;
+      return;      
     }
+    turnWins += 1;
   }
   printCongratulation(name);
 };
