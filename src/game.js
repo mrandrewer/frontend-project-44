@@ -8,6 +8,9 @@ import {
 } from './cli.js';
 
 const turnsToWin = 3;
+const maxGameNumber = 100;
+
+const getRandomNumber = (max = maxGameNumber) => Math.round(Math.random() * (max - 1) + 1);
 
 // game turn logic
 const runGameTurn = (getTurnDataCallback) => {
@@ -17,7 +20,7 @@ const runGameTurn = (getTurnDataCallback) => {
     printCorrect();
     return true;
   }
-  printError();
+  printError(answer, userAnswer);
   return false;
 };
 
@@ -36,4 +39,4 @@ const runGame = (instruction, getTurnDataCallback) => {
   printCongratulation(name);
 };
 
-export default runGame;
+export { runGame, getRandomNumber };
