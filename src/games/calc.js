@@ -38,4 +38,4 @@ const getCalcGameData = () => {
   return [question, answer];
 };
 
-export { getCalcGameData, getCalcManual }
+export { getCalcGameData, getCalcManual };
