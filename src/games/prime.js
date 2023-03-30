@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/game.js';
+import { getRandomNumber } from '../game.js';
 
 /**
  * Manual for prime game

@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/game.js';
+import { getRandomNumber } from '../game.js';
 
 const minProgressionLength = 5;
 const maxProgressionLength = 15;
