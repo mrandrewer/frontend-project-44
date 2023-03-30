@@ -34,7 +34,7 @@ const runGameTurn = (getTurnDataCallback) => {
 };
 
 /**
- * Main game lookp logic
+ * Main game loop logic
  * @param {String} instruction An instruction printed at the start of the gamme
  * @param {object} getTurnDataCallback Callback function that returns a [question, answer] array
   */
