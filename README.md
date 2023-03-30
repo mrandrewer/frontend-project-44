@@ -22,7 +22,7 @@ brain-calc
 
 #### Greatest common denominator game
 ```bash
-brain-gdc
+brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/g8ODrfTcskkoRwvKFZP8OBjI2.svg)](https://asciinema.org/a/g8ODrfTcskkoRwvKFZP8OBjI2)
 

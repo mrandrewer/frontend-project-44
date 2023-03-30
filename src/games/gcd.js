@@ -3,18 +3,18 @@ import { getRandomNumber } from '../game.js';
 /**
  * Manual for gdc game
  */
-const getGDCManual = () => 'Find the greatest common divisor of given numbers.';
+const getGCDManual = () => 'Find the greatest common divisor of given numbers.';
 
 /**
  * Calculates the greatest common divisor for two numbers
  * @param {Number} a First number
  * @param {Number} b Second number
  */
-const getGDC = (a, b) => {
+const getGCD = (a, b) => {
   if (!b) {
     return a;
   }
-  return getGDC(b, a % b);
+  return getGCD(b, a % b);
 };
 
 /**
@@ -22,10 +22,10 @@ const getGDC = (a, b) => {
  * @returns {Object} An array of strings, where first element is a question
  * and second element is an answer.
  */
-const getGDCGameData = () => {
+const getGCDGameData = () => {
   const num1 = getRandomNumber();
   const num2 = getRandomNumber();
-  return [`${num1} ${num2}`, `${getGDC(num1, num2)}`];
+  return [`${num1} ${num2}`, `${getGCD(num1, num2)}`];
 };
 
-export { getGDCGameData, getGDCManual };
+export { getGCDGameData, getGCDManual };
