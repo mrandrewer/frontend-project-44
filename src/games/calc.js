@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { getRandomNumber } from '../game.js';
 
 /**

@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { getRandomNumber } from '../game.js';
 
 /**
@@ -17,4 +16,4 @@ const getEvenGameData = () => {
   return [question.toString(), answer];
 };
 
-export {getEvenGameData, getEvenManual };
+export { getEvenGameData, getEvenManual };
