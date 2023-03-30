@@ -9,7 +9,7 @@ import { getRandomNumber, runGame } from '../src/game.js';
 const getEvenGameData = () => {
   const question = getRandomNumber();
   const answer = question % 2 === 0 ? 'yes' : 'no';
-  return [question, answer];
+  return [question.toString(), answer];
 };
 
 runGame('Answer "yes" if the number is even, otherwise answer "no".', getEvenGameData);
